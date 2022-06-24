@@ -1,0 +1,32 @@
+@media only screen and (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+      width: 100%;
+      height:100%;
+    }
+    .page1__wrapper{
+        width: 100%;
+    }
+   .p1__txt{
+    font-size: 60px;
+    line-height: 52px;
+    text-align: center;
+   }
+   .p2__txt{
+    margin-top: 15px;
+   }
+   .arrow__page1{
+    margin-top: 180px;
+   }
+   .sections__page2{
+    margin-top: 35px;
+   }
+   .p__sections{
+    font-size: 65px;
+    line-height: 75px;
+   }
+  }
