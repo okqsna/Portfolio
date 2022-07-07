@@ -58,6 +58,15 @@ colImgDonate.addEventListener("mouseleave", function(event){
     btnDonate.style.display="none";
     linksDonate.style.display="none";
 })
+colImgNike.addEventListener("mouseenter", function(event){
+    btnNike.style.display="flex";
+    btnNike.style.cursor="pointer"
+    linksNike.style.display="flex";
+})
+colImgNike.addEventListener("mouseleave", function(event){
+    btnNike.style.display="none";
+    linksNike.style.display="none";
+})
 
 let url='https://api.github.com/users/';
 async function getUser(username){
