@@ -33,12 +33,26 @@
     flex-direction: row;
     justify-content: space-between;
 }
-.logo__page1{
-    font-weight: 900;
-    font-size:40px;
-    color: #ffff;
-    font-family: 'Red Rose', cursive;   
+.logo__page1{  
     cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #94bbe9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo__page1:hover{
+    border-radius: 20%;
+    transition: 1s;
+    background-color: #ceb3d5;
+}
+.circle__logo_page1{
+    background-color:#fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
 }
 .main__page1{
     display: flex;
@@ -118,12 +132,25 @@
     justify-content: space-between;
     height: 15vh;
 }
-.logo__page2{
-    font-weight: 900;
-    font-size:40px;
-    color: #ffff;
-    font-family: 'Red Rose', cursive;   
-    color: #94bbe9;
+.logo__page2{  
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ceb3d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo__page2:hover{
+    border-radius: 20%;
+    transition: 1s;
+}
+.circle__logo_page2{
+    background-color:#ffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
 }
 .sections__page2{
     display: flex;
@@ -180,7 +207,7 @@
 
 .page4__wrapper{
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background-color: #ffff;
     display: none;
     flex-direction: row;
@@ -188,7 +215,7 @@
 }
 .info__page4{
     display: flex;
-    flex-direction:row-reverse;
+    flex-direction:row;
     justify-content: space-around;
     align-items: center;
     width:97%;
@@ -201,28 +228,54 @@
     text-align: left;
     margin-left: 15px;
 }
+.logo__info_page4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    width: 330px;
+    height: 330px;
+    background-color: #ceb3d5;
+    border-radius: 50%;
+    position: relative;
+}
+
 .img__page4{
-    background-image: url(img/me.jpg);
+    background-image: url(img/me.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 290px;
-    height: 290px;
+    width: 270px;
+    height: 270px;
     margin-left: 20px;
-    animation:headShake;
-    animation-duration:20s;
+    animation:jackInTheBox;
+    animation-duration: 7s;
+    
 }
 .page4__wrapper h2{
-    font-size: 70px;
+    font-size: 60px;
     color: #ceb3d5;
     font-family: "Poppins";
+  
 }
 .p1__page4{
     margin-top: 30px;
     font-size: 24px;
-    width: 525px;
+    width: 530px;
     font-family: "Poppins";
     margin-bottom: 15px;
 }
+.p1__page4 span{
+    color: #94bbe9;
+}
+.p1__memoji img{
+    width: 25px;
+    height: 25px;
+}
+.p2__memoji img{
+    width: 25px;
+    height: 25px;
+}
+
 .col1__page4{
     display: flex;
     flex-direction: column;
@@ -231,16 +284,27 @@
     width: 3%;
     position: fixed;
 }
-.logo__page4{
-    font-weight: 900;
-    font-size:40px;
-    color:#94bbe9;
-    font-family: 'Red Rose', cursive;
+.logo__page4{  
     cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:#94bbe9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
 .logo__page4:hover{
-    color: #ceb3d5;
-    transition: 0.3s;
+    border-radius: 20%;
+    transition: 1s;
+    background-color: #ceb3d5;
+}
+.circle__logo_page4{
+    background-color:#fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
 }
 .line__col1{
     width:2px;
@@ -264,9 +328,9 @@
 .linkskills__page4{
     width: 180px;
     height: 55px;
-    background-color: #ffff;
-    border-radius: 35px;
-    border: 1px solid #ceb3d5;
+    background-color:#ceb3d5;
+    border-radius: 10px;
+    color:#fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -274,16 +338,18 @@
     margin-top: 20px;
 }
 .linkskills__page4:hover{
-    background-color: #ceb3d5;
+    background-color: #94bbe9;
     color: #fff;
-    transition: 0.3s;
+    transition: 1s;
     cursor: pointer;
+    border-radius: 35px;
+
 }
 
 /* Skills page */
 .page5__wrapper{
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     background-color: #ffff;
     display:none;
     flex-direction: row;
@@ -295,7 +361,8 @@
     padding: 60px;
     align-items: center;
     justify-content: center;
-    margin-left: 20px;
+    left: 15%;
+    position: relative;
 }
 .skills__page5, .additionalTools__page5{
     display: flex;
@@ -334,13 +401,20 @@
     display: flex;
     flex-direction: row;
 }
+.main2__experience{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 .experience__page5 h3{
     font-size: 30px;
     color: #ceb3d5;
     font-family: 'Poppins';
     margin-bottom: 20px;
 }
-.start__experience, .camp__experience{
+.start__experience, .camp__experience, .camp2__experience{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -349,11 +423,14 @@
     padding: 18px;
     margin-right: 55px;
     cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 5px;
 }
 .start__experience:hover , .camp__experience:hover , .first__experience:hover,
-.second__experience:hover{
+.second__experience:hover, .camp2__experience:hover{
     box-shadow: 5px 5px 18px 5px rgba(148,187,233,0.6);
-    transition: 0.3s;
+    transition: 0.8s;
+    border-radius: 12px;
 }
 .top__experience{
     display: flex;
@@ -368,6 +445,8 @@
     padding: 18px;
     margin-right: 55px;
     cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 5px;
 }
 .start__experience h4{
     font-size: 25px;
@@ -376,6 +455,12 @@
     margin-bottom: 10px;
 }
 .camp__experience h4{
+    font-size: 25px;
+    color: #94bbe9;
+    font-family: 'Poppins';
+    margin-bottom: 10px;
+}
+.camp2__experience h4{
     font-size: 25px;
     color: #94bbe9;
     font-family: 'Poppins';
@@ -397,6 +482,9 @@
     font-size:13px;
     font-family: 'Poppins';
     color: #000;
+}
+.p__second span{
+    color: #94bbe9;
 }
 .date__p{
     font-size:15px;
@@ -428,7 +516,7 @@
 /* Projects page */
 .page6__wrapper{
     width: 100%;
-    height: 250vh;
+    height: 280vh;
     display:none;
     flex-direction: row;
     padding:40px;
@@ -441,11 +529,24 @@
     width:97%;
     padding: 23px;
 }
-.webovio__row, .lasles__row, .nike__row, .pizza__row, .pelio__row{
+.webovio__row, .lasles__row, .nike__row{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 25px;
+}
+.pizza__row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.pelio__row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-left: 10px;
 }
 .donate__row{
     display: flex;
@@ -453,13 +554,14 @@
     justify-content: space-around;
     margin-top: 25px;
     margin-bottom: 40px;
+    margin-left: 10px;
 }
 .weather__row{
     margin-top: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 25px;
+    margin-left: 32px;
 }
 .colimg__webovio, .colimg__weather, .colimg__lasles,
 .colimg__pizza,.colimg__pelio, .colimg__donate, .colimg__nike{
@@ -557,15 +659,39 @@
 .descr__webovio, .descr__lasles{
     display: flex;
     flex-direction: column;
-    margin-right: 40px;
+    margin-right: 60px;
+}
+.descr__webovio h4, .descr__weather h4, .descr__lasles h4, .descr__nike h4, .descr__pelio h4, .descr__pizza h4, .descr__donate h4{
+   margin-top: 5px;
+   font-family: 'Poppins';
+   color: #94bbe9;
+}
+.techno__descr{
+    display: flex;
+    flex-direction: row;
+}
+.techno__col1{
+    display: flex;
+    flex-direction: column;
+}
+.techno__col2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
 }
 .descr__weather{
-    margin-left: 50px;
+    margin-left: 48px;
 }
 .descr__donate{
     display: flex;
     flex-direction: column;
-    margin-right: 75px;
+    margin-right: 52px;
+}
+.descr__pelio{
+    margin-right:20px;
+}
+.descr__pizza{
+    margin-right: 12px;
 }
 .descr__weather h2, .descr__lasles h2, .descr__webovio h2,
 .descr__pizza h2, .descr__pelio h2, .descr__donate h2, .descr__nike h2 {
@@ -580,7 +706,7 @@
     font-family: 'Poppins';
 }
 .img__weather{
-    background-image:url(img/weather.png);
+    background-image:url(img/weatherpreview.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width:341px;
@@ -615,7 +741,8 @@
     height: 72vh;
     display: flex;
     flex-direction: row;
-    box-shadow: 0px 0px 13px -5px rgba(0,0,0,0.89);
+    -webkit-box-shadow: -1px 0px 33px 16px rgba(0,0,0,0.39); 
+    box-shadow: -1px 0px 33px 16px rgba(0,0,0,0.10);
     margin-top: 35px;
 }
 .card__left{
@@ -670,12 +797,14 @@
     cursor: pointer;
     font-weight: 500;
     font-size: 15px;
+    -webkit-box-shadow: -1px 0px 33px 16px rgba(0,0,0,0.39); 
+    box-shadow: -1px 0px 33px 16px rgba(0,0,0,0.10);
 }
 .btn__submit:hover{
     background-color: #fff;
-    border: 1px solid #94bbe9;
-    color: #94bbe9;
-    transition: 0.2s;
+    border-radius: 35px;
+    color: #ceb3d5;
+    transition:1s;
 }
 .card__right{
     width: 300px;
