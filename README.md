@@ -7,7 +7,7 @@
 - `JavaScript`
 - [`Animate.CSS`](https://animate.style/)
 - [`Github REST API`](https://docs.github.com/en/rest)
-- [`Formspree`](https://formspree.io/)
+- [`Netlify Form`](https://www.netlify.com/)
 
 **Preview of my portfolio**
 
