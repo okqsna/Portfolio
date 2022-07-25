@@ -38,6 +38,180 @@
    .page3__wrapper h2{
     font-size: 35px;
    }
+   /* page 4 adaptive */
+   .page4__wrapper{
+    display:none;
+   }
+    .info__page4{
+        display: flex;
+        flex-direction: column;
+    }
+    .txt__page4{
+        align-items: center;
+        justify-content: center;
+    }
+    .page4__wrapper h2{
+        font-size: 35px;
+    }
+    .p1__page4{
+        font-size: 15px;
+        width: 340px;
+        text-align: center;
+    }
+    .p1__memoji img{
+        width: 15px;
+        height: 15px;
+    }
+    .p2__memoji img{
+        width: 15px;
+        height: 15px;
+    }
+    .logo__info_page4{
+        width: 150px;
+        height: 150px;
+    }
+    .img__page4{
+        width: 120px;
+        height: 120px;
+    }
+    .linkskills__page4{
+        width: 160px;
+        height: 50px;
+        font-size: 14px;
+    }
+    .col1__page4 h3{
+        font-size: 35px;
+    }
+    /* page 5 adaptive */
+    .page5__wrapper{
+        height: 345vh;
+    }
+    .main__page5{
+     left:0%;
+    }
+    .skills__page5 h3, .additionalTools__page5 h3{
+        font-size: 25px;
+    }
+    .tools__page5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+    }
+    .experience__page5{
+        align-items: center;
+        margin-top: 20px;
+    }
+    .experience__page5 h3{
+        color: #94bbe9;
+    }
+    .main__experience{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main2__experience{
+        flex-direction: column;
+        align-items: center;
+    }
+    .start__experience, .camp__experience, .camp2__experience, .first__experience, .second__experience{
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    /* page 6 adaptive */
+    .page6__wrapper{
+        height: 500vh;
+        display: none;
+    }
+    .projects__page6{
+        align-items: center;
+    }
+    .webovio__row, .lasles__row, .nike__row{
+        flex-direction: column;
+    }
+    .pizza__row{
+        flex-direction: column;
+        margin-left: 0px
+    }
+    .donate__row{
+        flex-direction: column;
+        margin-left: 0px;
+        display: none;
+    }
+    .colimg__webovio, .colimg__weather, .colimg__lasles,
+    .colimg__pizza,.colimg__pelio, .colimg__donate, .colimg__nike{
+    width: 300px;
+   }
+   .btn__img_webovio, .btn__img_weather, .btn__img_lasles,
+   .btn__img_pizza , .btn__img_pelio, .btn__img_donate, .btn__img_nike{
+    width: 250px;
+   }
+   .link__img_webovio, .link__img_weather, .link__img_lasles,
+   .link__img_pizza, .link__img_nike, .link__img_pelio, .link__img_donate{
+    font-size: 12px;
+   }
+   .links__btn{
+    left: 40px;
+   }
+
+   .img__webovio, .img__pizza, .img__weather, .img__lasles, .img__nike, .img__pelio, .img__donate{
+    width: 250px;
+   }
+    .weather__row{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .pelio__row{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .descr__webovio, .descr__lasles, .descr__weather, .descr__pelio, .descr__pizza, .descr__nike, .descr__donate{
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 20px;
+        width: 300px;
+    }
+    .techno__col2{
+        margin-left: 20px;
+    }
+    .techno__col1 p, .techno__col2 p{
+        font-size: 14px;
+    }
+    /* page 7 adaptive */
+    .page7__wrapper{
+        height: 170vh;
+    }
+    .main__page7{
+    padding: 30px;
+    }
+    .main__page7 h2{
+        font-size: 30px;
+    }
+    .card__left h2, .card__right h2{
+        font-size: 20px;
+    }
+    .card__info{
+        flex-direction: column;
+        width: 300px;
+    }
+    .card__left{
+        width: 300px;
+        align-items: center;
+    }
+    .input__card{
+        width: 240px;
+    }
+    .text__card{
+        width: 240px;
+    }
+    .btn__submit{
+        width:120px;
+        height: 35px;
+        font-size: 12px;
+    }
+    .acc__instagram, .acc__twitter{
+        font-size: 13px;
+    }
+   
 
 
    }

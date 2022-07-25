@@ -349,7 +349,7 @@
 /* Skills page */
 .page5__wrapper{
     width: 100%;
-    height: 150vh;
+    height: 190vh;
     background-color: #ffff;
     display:none;
     flex-direction: row;
@@ -361,8 +361,9 @@
     padding: 60px;
     align-items: center;
     justify-content: center;
-    left: 15%;
+    left: 5%;
     position: relative;
+    width: 97%;
 }
 .skills__page5, .additionalTools__page5{
     display: flex;
@@ -814,6 +815,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    -webkit-box-shadow: -1px 0px 33px 16px rgba(0,0,0,0.39); 
+    box-shadow: -1px 0px 33px 16px rgba(0,0,0,0.10);
 }
 .card__right h2{
     color: #94bbe9;
